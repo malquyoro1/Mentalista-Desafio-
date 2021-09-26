@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://osegredo.com.br/wp-content/uploads/2015/12/adivinho.webp");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #2fffd9;
+  margin: 22px;
+  font-size: 70px;
+  -webkit-text-stroke: thin;
+}
+
+.page-subtitle {
+  color: #00bfff;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #000000ba;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+}
+
+.page-titleAviso {
+  color: #ffff00;
+  font-size: 18px;
+  background-color: #000000b8;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16em;
+  margin-top: 1px;
+}
+.page-logo {
+  background-size: 3px;
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  color: #1c042d;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 120px;
+  font-size: 20px;
+  background-color: #66cdaa8a;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  margin-top: 10px;
+}
+
+.link {
+  position: absolute;
+  text-decoration: none;
+  top: 35px;
+  right: 7px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+}
